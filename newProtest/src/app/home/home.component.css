@@ -1,0 +1,26 @@
+#sec1 {
+
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  color: aliceblue;
+  width: 100%
+
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+padding: 10px;
+}
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  width: 100%;
+  size-adjust: auto;
+}
+.grid-container .grid-item {
+  margin: auto;
+}
